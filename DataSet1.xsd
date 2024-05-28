@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RecentAccount" msprop:Generator_TableClassName="RecentAccountDataTable" msprop:Generator_TableVarName="tableRecentAccount" msprop:Generator_RowChangedName="RecentAccountRowChanged" msprop:Generator_TablePropName="RecentAccount" msprop:Generator_RowDeletingName="RecentAccountRowDeleting" msprop:Generator_RowChangingName="RecentAccountRowChanging" msprop:Generator_RowEvHandlerName="RecentAccountRowChangeEventHandler" msprop:Generator_RowDeletedName="RecentAccountRowDeleted" msprop:Generator_RowClassName="RecentAccountRow" msprop:Generator_UserTableName="RecentAccount" msprop:Generator_RowEvArgName="RecentAccountRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="CNIC" msprop:Generator_ColumnVarNameInTable="columnCNIC" msprop:Generator_ColumnPropNameInRow="CNIC" msprop:Generator_ColumnPropNameInTable="CNICColumn" msprop:Generator_UserColumnName="CNIC" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountNo" msprop:Generator_ColumnVarNameInTable="columnAccountNo" msprop:Generator_ColumnPropNameInRow="AccountNo" msprop:Generator_ColumnPropNameInTable="AccountNoColumn" msprop:Generator_UserColumnName="AccountNo" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchCode" msprop:Generator_ColumnVarNameInTable="columnBranchCode" msprop:Generator_ColumnPropNameInRow="BranchCode" msprop:Generator_ColumnPropNameInTable="BranchCodeColumn" msprop:Generator_UserColumnName="BranchCode" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedDate" msprop:Generator_ColumnVarNameInTable="columnCreatedDate" msprop:Generator_ColumnPropNameInRow="CreatedDate" msprop:Generator_ColumnPropNameInTable="CreatedDateColumn" msprop:Generator_UserColumnName="CreatedDate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AdminActivity" msprop:Generator_TableClassName="AdminActivityDataTable" msprop:Generator_TableVarName="tableAdminActivity" msprop:Generator_RowChangedName="AdminActivityRowChanged" msprop:Generator_TablePropName="AdminActivity" msprop:Generator_RowDeletingName="AdminActivityRowDeleting" msprop:Generator_RowChangingName="AdminActivityRowChanging" msprop:Generator_RowEvHandlerName="AdminActivityRowChangeEventHandler" msprop:Generator_RowDeletedName="AdminActivityRowDeleted" msprop:Generator_RowClassName="AdminActivityRow" msprop:Generator_UserTableName="AdminActivity" msprop:Generator_RowEvArgName="AdminActivityRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountNo" msprop:Generator_ColumnVarNameInTable="columnAccountNo" msprop:Generator_ColumnPropNameInRow="AccountNo" msprop:Generator_ColumnPropNameInTable="AccountNoColumn" msprop:Generator_UserColumnName="AccountNo" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalPending" msprop:Generator_ColumnVarNameInTable="columnTotalPending" msprop:Generator_ColumnPropNameInRow="TotalPending" msprop:Generator_ColumnPropNameInTable="TotalPendingColumn" msprop:Generator_UserColumnName="TotalPending" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TRANSACTION" msprop:Generator_TableClassName="TRANSACTIONDataTable" msprop:Generator_TableVarName="tableTRANSACTION" msprop:Generator_RowChangedName="TRANSACTIONRowChanged" msprop:Generator_TablePropName="TRANSACTION" msprop:Generator_RowDeletingName="TRANSACTIONRowDeleting" msprop:Generator_RowChangingName="TRANSACTIONRowChanging" msprop:Generator_RowEvHandlerName="TRANSACTIONRowChangeEventHandler" msprop:Generator_RowDeletedName="TRANSACTIONRowDeleted" msprop:Generator_RowClassName="TRANSACTIONRow" msprop:Generator_UserTableName="TRANSACTION" msprop:Generator_RowEvArgName="TRANSACTIONRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AccountNo" msprop:Generator_ColumnVarNameInTable="columnAccountNo" msprop:Generator_ColumnPropNameInRow="AccountNo" msprop:Generator_ColumnPropNameInTable="AccountNoColumn" msprop:Generator_UserColumnName="AccountNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="TransactionType" msprop:Generator_ColumnVarNameInTable="columnTransactionType" msprop:Generator_ColumnPropNameInRow="TransactionType" msprop:Generator_ColumnPropNameInTable="TransactionTypeColumn" msprop:Generator_UserColumnName="TransactionType" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Branchcode" msprop:Generator_ColumnVarNameInTable="columnBranchcode" msprop:Generator_ColumnPropNameInRow="Branchcode" msprop:Generator_ColumnPropNameInTable="BranchcodeColumn" msprop:Generator_UserColumnName="Branchcode" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BranchAccount" msprop:Generator_TableClassName="BranchAccountDataTable" msprop:Generator_TableVarName="tableBranchAccount" msprop:Generator_RowChangedName="BranchAccountRowChanged" msprop:Generator_TablePropName="BranchAccount" msprop:Generator_RowDeletingName="BranchAccountRowDeleting" msprop:Generator_RowChangingName="BranchAccountRowChanging" msprop:Generator_RowEvHandlerName="BranchAccountRowChangeEventHandler" msprop:Generator_RowDeletedName="BranchAccountRowDeleted" msprop:Generator_RowClassName="BranchAccountRow" msprop:Generator_UserTableName="BranchAccount" msprop:Generator_RowEvArgName="BranchAccountRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ManagerName" msprop:Generator_ColumnVarNameInTable="columnManagerName" msprop:Generator_ColumnPropNameInRow="ManagerName" msprop:Generator_ColumnPropNameInTable="ManagerNameColumn" msprop:Generator_UserColumnName="ManagerName" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchCode" msprop:Generator_ColumnVarNameInTable="columnBranchCode" msprop:Generator_ColumnPropNameInRow="BranchCode" msprop:Generator_ColumnPropNameInTable="BranchCodeColumn" msprop:Generator_UserColumnName="BranchCode" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchName" msprop:Generator_ColumnVarNameInTable="columnBranchName" msprop:Generator_ColumnPropNameInRow="BranchName" msprop:Generator_ColumnPropNameInTable="BranchNameColumn" msprop:Generator_UserColumnName="BranchName" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountHolder" msprop:Generator_ColumnVarNameInTable="columnAccountHolder" msprop:Generator_ColumnPropNameInRow="AccountHolder" msprop:Generator_ColumnPropNameInTable="AccountHolderColumn" msprop:Generator_UserColumnName="AccountHolder" type="xs:string" minOccurs="0" />
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AccountActivity" msprop:Generator_TableClassName="AccountActivityDataTable" msprop:Generator_TableVarName="tableAccountActivity" msprop:Generator_RowChangedName="AccountActivityRowChanged" msprop:Generator_TablePropName="AccountActivity" msprop:Generator_RowDeletingName="AccountActivityRowDeleting" msprop:Generator_RowChangingName="AccountActivityRowChanging" msprop:Generator_RowEvHandlerName="AccountActivityRowChangeEventHandler" msprop:Generator_RowDeletedName="AccountActivityRowDeleted" msprop:Generator_RowClassName="AccountActivityRow" msprop:Generator_UserTableName="AccountActivity" msprop:Generator_RowEvArgName="AccountActivityRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PersonName" msprop:Generator_ColumnVarNameInTable="columnPersonName" msprop:Generator_ColumnPropNameInRow="PersonName" msprop:Generator_ColumnPropNameInTable="PersonNameColumn" msprop:Generator_UserColumnName="PersonName" type="xs:string" minOccurs="0" />
+              <xs:element name="RequestType" msprop:Generator_ColumnVarNameInTable="columnRequestType" msprop:Generator_ColumnPropNameInRow="RequestType" msprop:Generator_ColumnPropNameInTable="RequestTypeColumn" msprop:Generator_UserColumnName="RequestType" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="UpdatedInfo" msprop:Generator_ColumnVarNameInTable="columnUpdatedInfo" msprop:Generator_ColumnPropNameInRow="UpdatedInfo" msprop:Generator_ColumnPropNameInTable="UpdatedInfoColumn" msprop:Generator_UserColumnName="UpdatedInfo" type="xs:string" minOccurs="0" />
+              <xs:element name="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_UserColumnName="STATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
